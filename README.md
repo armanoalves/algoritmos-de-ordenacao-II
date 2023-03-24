@@ -38,3 +38,11 @@
 - Desenvolvemos código em JavaScript para implementar o algoritmo de busca binária;
 
 - Continuamos a prática de funções recursivas, vendo o funcionamento do “caso base”, que pode ser considerada como a condição de parada de uma função recursiva.
+
+### Aula 05
+
+- Aprendemos a fazer a análise assintótica do algoritmo de busca binária e por que este é considerado um algoritmo de complexidade logarítmica, em comparação com a busca linear que é um algoritmo de complexidade linear;
+
+- Fizemos a análise assintótica dos algoritmos de ordenação quick sort e merge sort e analisamos o código para entendermos por que são considerados algoritmos de complexidade linear-logarítmica;
+
+- E o que significa, em termos de performance, a diferença entre algoritmos de crescimento linear, quadrático e logarítmico.
