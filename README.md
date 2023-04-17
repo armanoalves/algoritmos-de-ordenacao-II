@@ -1,48 +1,50 @@
-# algoritmos-de-ordenacao-II
+# <p align="center" >  Algoritmos de ordenacao II  </p> 
 
-## Aprendizados
+## Sobre o projeto
 
-### Aula 01
-- Após o teste de mesa realizado nas primeiras aulas, foi construido um código com base nas sequências realizadas no teste de mesa;
+O curso "Algoritmos em JavaScript: Aprofundando em Ordenação e Busca", visa aprofundar conceitos como seleção, inserção, mergesort e quicksort, além de abordar as técnicas de busca sequencial e binária.
+algoritmos-de-ordenacao-II
+## Conhecimentos adquiridos
 
-- O mesmo sofreu de um problema na condição para rodar o `while` onde parava mesmo sem agrupar todos os componentes da uma lista, já que a dependencia eram de duas a estrutura parava;
+- Após o teste de mesa realizado nas primeiras aulas, foi construído um código com base nas sequências realizadas no teste de mesa;
 
-- Como solução, foi implementado outras duas estruturas de `while` para adicionar esses componentes restantes dentro da lista não concluida, para dentro da lista final.
+- O mesmo sofreu de um problema na condição para rodar o `while` onde parava mesmo sem agrupar todos os componentes da lista, já que a dependência era de duas a estrutura parava;
 
-### Aula 02
+- Como solução, foi implementado outras duas estruturas de `while` para adicionar esses componentes restantes dentro da lista não concluída, para dentro da lista final;
 
 - Expandimos o conceito de “dividir para conquistar”, reutilizando a lógica de ordenar duas listas, e desenvolvemos um algoritmo para ordenar uma única lista;
 
-- Utilizando o recurso das simulações e testes, entendemos o funcionamento de um algoritmo de ordenação muito utilizado no dia-a-dia, o "Merge Sort";
+- Utilizando o recurso das simulações e testes, entendemos o funcionamento de um algoritmo de ordenação muito utilizado no
+dia-a-dia, o "Merge Sort";
 
-- Após entendermos o fluxo do algoritmo, fizemos a implementação do algoritmo Merge Sort com JavaScript, através da função `mergeSort()` que recebe um array e retorna este array ordenado;
-
-- Estudamos a ferramenta de "recursão", como ela pode ser utilizada no algoritmo Merge Sort e as diferenças dessa ferramenta com relação aos laços de repetição.
-
-### Aula 03 
-
-- Trabalhamos com o conceito de pivô, entendemos como selecionar um elemento pivô no código e como posicionar este elemento em uma lista, comparando valores e contando elementos menores;
-
-- Após posicionar um elemento pivô em um array, desenvolvemos um código em JavaScript que percorre uma lista e separa todos os elementos entre maiores e menores que o pivô, através da função `encontraMenores();`
-
-- A partir do conceito de elemento pivô, entendemos o funcionamento do algoritmo de ordenação quick sort, fazendo mais simulações e testes;
-
-- Após entendermos o algoritmo, implementamos o código utilizando JavaScript e reaproveitando funções e conceitos das aulas anteriores, como a função `trocaLugar()` e a recursão.
-
-### Aula 04
-
-- Aplicamos novamente o paradigma “dividir para conquistar” para desenvolver o algoritmo de busca chamado busca binária;
-
-- Utilizamos recursão para manipular um array ordenado e buscar um elemento, seguindo o fluxo da busca binária que foi visto nas simulações e testes;
+- Após entendermos o algoritmo, implementamos o código utilizando JavaScript e reaproveitando funções e conceitos das aulas anteriores, como a função `trocaLugar()` e a recursão;
 
 - Desenvolvemos código em JavaScript para implementar o algoritmo de busca binária;
 
-- Continuamos a prática de funções recursivas, vendo o funcionamento do “caso base”, que pode ser considerada como a condição de parada de uma função recursiva.
+- Continuamos a prática de funções recursivas, vendo o funcionamento do “caso base”, que pode ser considerada a condição de parada de uma função recursiva.
 
-### Aula 05
 
-- Aprendemos a fazer a análise assintótica do algoritmo de busca binária e por que este é considerado um algoritmo de complexidade logarítmica, em comparação com a busca linear que é um algoritmo de complexidade linear;
+## Como executar
+1. Clonar o repositório
 
-- Fizemos a análise assintótica dos algoritmos de ordenação quick sort e merge sort e analisamos o código para entendermos por que são considerados algoritmos de complexidade linear-logarítmica;
+  ```
+  https://github.com/armanoalves/algoritmos-de-ordenacao-II
+  ```
 
-- E o que significa, em termos de performance, a diferença entre algoritmos de crescimento linear, quadrático e logarítmico.
+2. Localizar e acessar a pasta "algoritmos-de-ordenacao-II";
+
+  ```
+  cd algoritmos-de-ordenacao-II
+  ```
+
+## Tecnologias
+
+  * **linguagem:**  
+    * JavaScript
+  * **Interpretador:**
+    * NodeJS
+
+## Feito por: 
+
+| [<img src="https://avatars.githubusercontent.com/armanoalves" width=115><br><sub>Armano Barros Alves</sub>](https://github.com/armanoalves) |
+| :---: |
